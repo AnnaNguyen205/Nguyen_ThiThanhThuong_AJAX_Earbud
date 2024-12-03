@@ -1,0 +1,20 @@
+#loader {
+  max-width: 100px;
+  margin: 10px auto;
+}
+
+#loader.hidden {
+  display: none;
+}
+
+#error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  p {
+    margin-top: 10px;
+    padding: 0 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+}
